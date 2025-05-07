@@ -3,7 +3,7 @@
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene> 
+    <a-scene xr-mode-ui="XRMode: xr"> 
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#572364"></a-box>
       <a-cone position="-2 1 -5" radiusTop="0" radiusBottom="1" rotation="0 0 30" height=" 1.5" color=" pink"></a-cone>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
@@ -12,7 +12,7 @@
       <a-cylinder position="-3 0 -3" radius="0.25" height="0.5 " color="#804000"></a-cylinder>
       <a-cone position="-3 0.5 -3" radiusTop="0" radiusBottom="1" height=" 1.5" color=" green"></a-cone>
       <a-cone position="-3 2 -3" radiusTop="0" radiusBottom="1" height=" 1.5" color=" green"></a-cone>
-      <a-sky color="#87CEEB"></a-sky>
+      <a-sky hide-on-enter-ar color="#87CEEB"></a-sky>
     </a-scene>
   </body>
 </html>
